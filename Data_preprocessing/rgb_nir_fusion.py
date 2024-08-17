@@ -74,7 +74,7 @@ class RGBNIRDataset(Dataset):
 batch_size = 8
 learning_rate = 0.001
 num_epochs = 10
-data_root = '/ssd_scratch/datasets/IDDAW_ICPR'
+data_root = 'datasets/IDDAW_ICPR'
 
 # Data loading
 transform = transforms.Compose([
